@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Gửi Em – Bé Heo Trẻ Của Anh</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+            font-family: 'Segoe UI', sans-serif;
+            color: #4a1c1c;
+            text-align: center;
+            padding: 40px;
+        }
+        .card {
+            background: rgba(255,255,255,0.9);
+            max-width: 800px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #e63946;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+        .love-list {
+            margin-top: 30px;
+            text-align: left;
+            max-height: 300px;
+            overflow-y: auto;
+            padding: 15px;
+            background: #fff0f3;
+            border-radius: 15px;
+        }
+        .heart {
+            color: #e63946;
+        }
+        footer {
+            margin-top: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Gửi Bé Heo Trẻ Của Anh ❤️</h1>
+
+    <p>
+      đm m bớt nghĩ bậy đi t iu m vì tính tình chứ đéo p do cái nhan sắc m lúc đầu t iu m t cx đéo bt nhan sắc m ra sao mà m nghĩ cái con mẹ j v em nên là ngoann m đang trong kì dậy thì nên m mới đen vs nhìu mụn m mà hết dậy thì đi mà bt vs ngực m v đc r còn 1 đống người mún có ngực v mà ko đc kìa nên là m ngoannn đừng nghĩ bậy còn ông anh họ m nào t trưởng thành đi ổng chết mẹ ổng với t nên là đừng tự ti con mẹ j hết t iu m do m an ủi t chứ đéo p do cái nhan sắc m nên là ngoannnnn iu m nhất lun á nha bé heo trẻ của t... t còn rất nhìu lời mún nói vs m cx như ôm m nhm ko thể do t vs m xa nhau quá nên là anh xin lỗi em nhìu anh mún ôm em hun em cx mún chịch em =))))) đừng để ý câu chịch nhá kkk... còn nhìu lời mún nói mà t ko thik gửi qua chữ nhìu nên nào gặp mik nói vs nhau trực tiếp nhá.
+    </p>
+
+    <div class="love-list" id="loveList"></div>
+
+    <footer>
+        Anh luôn ở đây ❤️
+    </footer>
+</div>
+
+<script>
+    const loveList = document.getElementById("loveList");
+    for (let i = 1; i <= 100; i++) {
+        const p = document.createElement("p");
+        p.innerHTML = `Anh Yêu Em ${i}% <span class="heart">❤️❤️❤️</span>`;
+        loveList.appendChild(p);
+    }
+</script>
+
+</body>
+</html>
